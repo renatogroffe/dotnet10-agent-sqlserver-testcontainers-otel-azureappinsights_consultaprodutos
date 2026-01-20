@@ -12,14 +12,14 @@
 		<PackageReference Include="Azure.Monitor.OpenTelemetry.Exporter" Version="1.5.0" />
 		<PackageReference Include="Bogus" Version="35.6.5" />
 		<PackageReference Include="linq2db" Version="6.1.0" />
-		<PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.0.0-preview.251204.1" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.1" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.1" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.1" />
+		<PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.0.0-preview.260108.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.2" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.2" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.2" />
 		<PackageReference Include="OpenTelemetry.Instrumentation.EntityFrameworkCore" Version="1.14.0-beta.2" />
 		<PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.14.0" />
 		<PackageReference Include="Sharprompt" Version="3.0.1" />
-		<PackageReference Include="Testcontainers.MsSql" Version="4.9.0" />
+		<PackageReference Include="Testcontainers.MsSql" Version="4.10.0" />
 	</ItemGroup>
 
 

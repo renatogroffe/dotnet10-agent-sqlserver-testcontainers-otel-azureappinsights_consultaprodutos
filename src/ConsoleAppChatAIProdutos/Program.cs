@@ -12,6 +12,7 @@ using Microsoft.Agents.AI;
 using Microsoft.Extensions.AI;
 using Microsoft.Extensions.Configuration;
 using OpenAI;
+using OpenAI.Chat;
 using OpenTelemetry;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
@@ -35,8 +36,7 @@ CommandLineHelper.Execute("docker container ls",
     "Containers antes da execucao do Testcontainers...");
 
 Console.WriteLine("Criando container para uso do SQL Server...");
-var msSqlContainer = new MsSqlBuilder()
-    .WithImage("mcr.microsoft.com/mssql/server:2025-CTP2.0-ubuntu-22.04")
+var msSqlContainer = new MsSqlBuilder("mcr.microsoft.com/mssql/server:2025-latest")
     .Build();
 await msSqlContainer.StartAsync();
 Console.WriteLine("Criando banco de dados BaseCatalogo...");
